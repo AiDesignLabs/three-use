@@ -51,43 +51,13 @@ importers:
         specifier: ^2.1.10
         version: 2.1.10(typescript@5.7.2)
 
-  packages/inner/lib2: {}
-
-  packages/lib: {}
-
-  packages/ui:
-    dependencies:
-      '@wendraw/lib':
-        specifier: workspace:*
-        version: link:../lib
-      '@wendraw/lib2':
-        specifier: workspace:*
-        version: link:../inner/lib2
-      vue:
-        specifier: ^3.5.13
-        version: 3.5.13(typescript@5.7.2)
-    devDependencies:
-      typescript:
-        specifier: ^5.7.2
-        version: 5.7.2
-      vite:
-        specifier: ^6.0.3
-        version: 6.0.3(@types/node@18.19.68)(jiti@2.4.1)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.1)
-      vue-tsc:
-        specifier: ^2.1.10
-        version: 2.1.10(typescript@5.7.2)
+  packages/core: {}
 
   playground:
     dependencies:
-      '@wendraw/lib':
+      '@three-use/core':
         specifier: workspace:*
-        version: link:../packages/lib
-      '@wendraw/lib2':
-        specifier: workspace:*
-        version: link:../packages/inner/lib2
-      '@wendraw/ui':
-        specifier: workspace:*
-        version: link:../packages/ui
+        version: link:../packages/core
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)

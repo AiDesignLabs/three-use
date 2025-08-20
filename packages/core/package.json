@@ -1,9 +1,9 @@
 {
-  "name": "@wendraw/lib",
+  "name": "@three-use/core",
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "description": "some lib",
+  "description": "three-use core",
   "author": "wendraw",
   "license": "MIT",
   "keywords": [],
