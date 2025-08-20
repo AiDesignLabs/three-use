@@ -1,8 +1,7 @@
 {
   "name": "@three-use/core",
   "type": "module",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1-beta.1",
   "description": "three-use core",
   "author": "wendraw",
   "license": "MIT",
