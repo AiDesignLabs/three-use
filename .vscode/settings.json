@@ -1,22 +1,7 @@
 {
-  "cSpell.words": ["Vitesse"],
-  "files.associations": {
-    "*.css": "css",
-    "__hash_table": "cpp",
-    "__split_buffer": "cpp",
-    "array": "cpp",
-    "bitset": "cpp",
-    "initializer_list": "cpp",
-    "string": "cpp",
-    "string_view": "cpp",
-    "unordered_map": "cpp",
-    "vector": "cpp",
-    "iterator": "cpp",
-    "utility": "cpp"
-  },
-  "editor.formatOnSave": false,
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
+  "editor.formatOnSave": false,
 
   // Auto fix
   "editor.codeActionsOnSave": {
@@ -48,7 +33,6 @@
     "html",
     "markdown",
     "json",
-    "json5",
     "jsonc",
     "yaml",
     "toml",
@@ -56,6 +40,7 @@
     "gql",
     "graphql",
     "astro",
+    "svelte",
     "css",
     "less",
     "scss",

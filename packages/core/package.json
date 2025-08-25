@@ -8,19 +8,30 @@
   "keywords": [],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.js"
     }
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "types": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "starry build",
-    "dev": "starry dev",
+    "dev": "vite build --watch --mode development",
     "prepare": "starry build"
+  },
+  "peerDependencies": {
+    "three": "^0.179.1"
+  },
+  "dependencies": {
+    "three-bvh-csg": "^0.0.17",
+    "three-mesh-bvh": "^0.9.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.179.0"
   }
 }

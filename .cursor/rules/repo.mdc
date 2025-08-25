@@ -1,0 +1,22 @@
+---
+alwaysApply: true
+---
+
+This is the monorepo for @three-use, an three.js utility library.
+
+The monorepo uses pnpm, and is organized using workspaces.
+
+The workspaces are:
+
+- packages/core: Core utilities for three.js.
+- playground: playground for the library.
+
+This project is written in typescript.
+
+If you want to check types, you can run `pnpm check` from the root of the repo. 
+
+If you want add interface or type, please add inline comments. such as, /** description of the type */.
+
+If you want add comments, please use English.
+
+If you want add codes, please use functional programming style., don't use class.
